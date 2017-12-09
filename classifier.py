@@ -7,7 +7,7 @@ from keras.optimizers import SGD, Adam
 from keras.models import model_from_json
 from keras.utils.np_utils import to_categorical
 
-train_file = r'data\channel1.pkl'
+train_file = r'data\channel4.pkl'
 
 with open(train_file, 'rb') as fp:
     train_labels, train_data = pickle.load(fp)
